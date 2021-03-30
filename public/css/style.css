@@ -1,0 +1,74 @@
+
+/* login page style */
+.black{
+    position: relative;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5),rgba(0,0,0, .5)),url("/images/1 (2).png");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height:100vh; 
+ 
+}
+.col{
+    width: 150px;
+}
+.log{
+    margin-top: 200px;
+
+}
+.mem{
+    border-radius: 50%;
+    height: 80px;
+    width: 90px;
+}
+.baner{
+    background-image: url("/images/1 (2).png");
+    position: relative;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height:100vh; 
+ 
+}
+
+
+.nav-link:link,
+.nav-link:visited{
+
+  color:rgb(107, 64, 8);
+  padding: 2px;
+  font-weight: 500;
+  transition:border .2s;
+  
+}
+.nav-link:hover,
+.nav-link:active{
+border-bottom:2px solid #fff;
+border-right: 2px solid #fff; 
+color: #fff;
+background-color: rgb(107, 64, 8);
+border-top-right-radius: 38%;
+}
+
+.h1{
+    font-family: "Roboto", sans-serif;
+    line-height: 58px;
+    font-size: 30px;
+    color: rgb(107, 64, 8);
+    font-weight: 300;
+    text-shadow: 2px 2px 2px  rgb(107, 64, 8);
+}
+.btn1{
+    color: #fff; 
+    background-color: rgb(107, 64, 8);
+    border-top-right-radius: 38%;
+ 
+}.btn2{
+    color: #fff; 
+    background-color:rgb(107, 64, 8);
+}
+.link:hover
+{
+text-decoration: none;
+text-shadow: 1px 1px #FFF;
+}
